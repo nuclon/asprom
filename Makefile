@@ -7,3 +7,7 @@ build:
 
 test:
 	go test
+
+docker:
+	docker build -t nuclon/asprom .
+	docker push nuclon/asprom
